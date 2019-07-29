@@ -1,0 +1,21 @@
+Welcome to the "Sounds Correction and Analysis Software " by CD8&co.
+
+User Manual:
+
+This version is optimised for the first 13 datasets with reference numbers up to and
+including reference_nb 13 (for testing data not included in, a manual input mode is built into the software).
+
+For general use, follow the steps provided bellow:
+In the same order:
+    1)Look up in the "flyovers" excel spreadsheet the reference number
+      matching the flyover to be investigated
+    2)Enter the reference number if available in the program options and
+      run after having selected other relevant options
+
+    3)If no reference numbers are available, set the reference number to 0
+      and manualy input the relevant variables in the manual input section
+      after having imported the data to be analysed and renamed it to "signal"
+
+WARNING: The sharpness metric only works on MATLAB R2018a and up! If you
+         dont have matlab 2018a, go to advanced options and set sharpness 
+         to false
